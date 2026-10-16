@@ -1,4 +1,4 @@
-function [state,counter] = StateUpdate_V0(state,counter,counterlimit0,counterlimit1,counterlimit3,counterlimit4,a)
+function [state,counter] = StateUpdate(state,counter,counterlimit0,counterlimit1,counterlimit3,counterlimit4,a)
 % this function used to update the state of each individual after each time
 
 if (state~=(2))&&(state~=(5))&&(state~=(-1))% State matrix store individuals infection stage 

@@ -868,7 +868,7 @@ end
           end
   end
   
-           [State,counter]  = arrayfun(@StateUpdate_V0,State,counter,counterlimit0,counterlimit1,counterlimit3,counterlimit4,a);
+           [State,counter]  = arrayfun(@StateUpdate,State,counter,counterlimit0,counterlimit1,counterlimit3,counterlimit4,a);
    
    summ(ws,1)=sum(State==0);
    summ(ws,2)=sum(State==1);

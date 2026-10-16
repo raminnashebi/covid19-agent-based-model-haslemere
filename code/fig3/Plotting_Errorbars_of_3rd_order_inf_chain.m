@@ -2,6 +2,9 @@
 
 % Required Matrix: Third order infetion chains occurence ratio (ydata_ratio)
 
+% Add code/shared and data/ to the MATLAB path (see setup_paths.m in the repository root).
+run(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'setup_paths.m'));
+
 y=[1 1 1; 1 1 2; 1 2 1; 2 1 1; 1 2 2; 2 1 2; 2 2 1; 2 2 2];
 u1=4;
 

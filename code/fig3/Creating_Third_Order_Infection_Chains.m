@@ -10,6 +10,9 @@
 %                                          infections chains are ended
 %          
 
+% Add code/shared and data/ to the MATLAB path (see setup_paths.m in the repository root).
+run(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'setup_paths.m'));
+
 load('FNM_HOME_5m+20m_symmetry');% Household contact network
 load('FNM_Outside_Home_5m+20m_symmetry');% non-household (workplace, social environment) contact network
 

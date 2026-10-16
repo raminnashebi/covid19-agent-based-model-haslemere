@@ -5,6 +5,9 @@
 %                     2) Percentage reduction of transmission probability
 %                        vector
 
+% Add code/shared and data/ to the MATLAB path (see setup_paths.m in the repository root).
+run(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'setup_paths.m'));
+
 for i=1:9
 SEM1=std(TV_r1(:,i))/sqrt(length(TV_r1(:,i)))% TV_r1 is totalcase matrix for 500 simulation with 9 different transmission ratio 
 ts1 = tinv([0.025  0.975],length(TV_r1(:,i))-1);  

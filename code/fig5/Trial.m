@@ -1,4 +1,7 @@
    
+% Add code/shared and data/ to the MATLAB path (see setup_paths.m in the repository root).
+run(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'setup_paths.m'));
+
 M=csvread('Kissler_DataS1.csv');% Halsemere dataset
 M(M(:,4)>20,:)=[];% Deleting interaction which occured more than 20 meters distance
 

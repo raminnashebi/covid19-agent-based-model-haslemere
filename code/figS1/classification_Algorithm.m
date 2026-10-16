@@ -1,5 +1,8 @@
 %% Importing social network data. M is 
 
+% Add code/shared and data/ to the MATLAB path (see setup_paths.m in the repository root).
+run(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'setup_paths.m'));
+
 M=csvread('Kissler_DataS1.csv');
 
 %% Take only interaction which occured between 6m and 20m distance 

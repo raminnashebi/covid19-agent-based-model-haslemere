@@ -1,3 +1,6 @@
+% Add code/shared and data/ to the MATLAB path (see setup_paths.m in the repository root).
+run(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'setup_paths.m'));
+
 for L=5:9
     Working_hour=L;% number of working hour we want to decrease from 9 hour working during 1 day
                    % for example when L=5 there will be 4 hour decrease in working hour (see method 

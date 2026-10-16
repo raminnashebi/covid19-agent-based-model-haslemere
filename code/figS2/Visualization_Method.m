@@ -1,5 +1,8 @@
 %% Visualization methods
 
+% Add code/shared and data/ to the MATLAB path (see setup_paths.m in the repository root).
+run(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'setup_paths.m'));
+
 KisslerDataS1=csvread('Kissler_DataS1.csv');% importing Halsemere dataset
 q=56;% agent 
 d=50;% d?stance

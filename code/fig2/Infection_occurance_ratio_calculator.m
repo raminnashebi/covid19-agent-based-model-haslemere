@@ -5,6 +5,9 @@
 %                  3)Workplace contact network
 %                  4)Social environment contact network
 
+% Add code/shared and data/ to the MATLAB path (see setup_paths.m in the repository root).
+run(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'setup_paths.m'));
+
 load('FNM_HOME_5m+20m_symmetry'); % Household contact network
 load('FNM_WORK_5m+20m_symmetry'); % Workplace contact network
 load('FNM_OUTDOOR_5m+20m_symmetry')% Social environment contact network

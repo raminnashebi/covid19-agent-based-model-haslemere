@@ -5,6 +5,9 @@
 %                   4) Basic reproduction number matrix which calculated
 %                      for 500 simulation with 9 different transmission ratio 
 
+% Add code/shared and data/ to the MATLAB path (see setup_paths.m in the repository root).
+run(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'setup_paths.m'));
+
 figure
 for i=1:9 % we did 500 simulation for 9 different transmission rates
     total_ratio=R_AH(:,i)+R_AW(:,i)+R_AO(:,i);% total infection ratio of household, workplace, and social environment

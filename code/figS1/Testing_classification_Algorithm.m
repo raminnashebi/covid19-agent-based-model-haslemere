@@ -2,6 +2,9 @@
 % We test our algorithm on already classified data by visualization method
 
 % Loading social network data as a MATLAB matrix (M)
+% Add code/shared and data/ to the MATLAB path (see setup_paths.m in the repository root).
+run(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'setup_paths.m'));
+
 M=csvread('Kissler_DataS1.csv');
     M(M(:,4)>5,:)=[];
 % Loading 

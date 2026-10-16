@@ -1,6 +1,9 @@
 
 %% Calculzting basic reproduction number 
 
+% Add code/shared and data/ to the MATLAB path (see setup_paths.m in the repository root).
+run(fullfile(fileparts(mfilename('fullpath')), '..', '..', 'setup_paths.m'));
+
 for k=1:9 % 9 different  transmission rates
   for j=1:500 % j is number of simulation 
          
