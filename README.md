@@ -2,6 +2,16 @@
 
 MATLAB code and simulation outputs for a stochastic agent-based epidemic model of COVID-19 running on the time-varying contact network of the Haslemere dataset. Each contact is classified as household, workplace or social environment. The simulations explore how transmission in these settings, stay-at-home days, working hours, vaccination coverage and variant (wild type vs Delta) affect spread and the basic reproduction number R0.
 
+## Citation
+
+If you use this code or data, please cite:
+
+> Nashebi, R., Sarı, M. and Kotil, S. (2022). Using a real-world network to model the trade-off between stay-at-home restriction, vaccination, social distancing and working hours on COVID-19 dynamics. *PeerJ*, 10:e14353. https://doi.org/10.7717/peerj.14353
+
+The model was developed for the MSc thesis *Effects of Various Parameters on the Containment of Pandemics* (R. Nashebi, Yildiz Technical University).
+
+## History
+
 This repository combines two earlier repositories:
 
 - `AGENT_BASED_MODEL`: the model code (now `code/` and `data/`)
